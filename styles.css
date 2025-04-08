@@ -112,10 +112,6 @@
     margin-left: center; /* Inválido; o correto seria usar `margin-left: auto; margin-right: auto;` para centralizar */
 }
 
-
-
-
-
 /* Rodapé Direitos Autorais*/
 .direitosReservados {
     text-align: center; /* Centraliza o texto no rodapé */

@@ -18,22 +18,22 @@ document.getElementById('imcForm').addEventListener('submit', function(event) {
   
     if (imc < 18.5) {
       classificacao = 'Abaixo do peso';
-      imagem = 'images/magro.png';
+      imagem = 'images/madruga.png';
     } else if (imc < 24.9) {
       classificacao = 'Peso normal';
-      imagem = 'images/normal.png';
+      imagem = 'images/chaves.png';
     } else if (imc < 29.9) {
       classificacao = 'Sobrepeso';
-      imagem = 'images/sobrepeso.png';
+      imagem = 'images/barriga.png';
     } else if (imc < 34.9) {
       classificacao = 'Obesidade grau 1';
-      imagem = 'images/obesidade1.png';
+      imagem = 'images/barriga.png';
     } else if (imc < 39.9) {
       classificacao = 'Obesidade grau 2';
-      imagem = 'images/obesidade2.png';
+      imagem = 'images/barriga.png';
     } else {
       classificacao = 'Obesidade grau 3';
-      imagem = 'images/obesidade3.png';
+      imagem = 'images/barriga.png';
     }
   
     resultadoIMC.textContent = `Seu IMC é ${imc.toFixed(2)} - ${classificacao}`;
